@@ -1,0 +1,73 @@
+:root{
+    --banner-bg:#264653;
+    --color-1:#E76F51;
+    --color-2:#23A6F0;
+    --footer-bg:#0B0D17;
+   }
+   
+   header,
+   .modal-content
+   {
+       background-color: var(--banner-bg);
+   }
+   
+   .modal-footer button:last-child,
+   .bg-red{
+       background-color: var(--color-1);
+   }
+   .text-red, .fas, .far{
+       color: var(--color-1);
+   }
+   .border-red{
+       border: 2px solid var(--color-1);
+   }
+   
+   hr{
+       color: var(--color-1);
+       height: 3px !important;
+       margin: 0 auto;
+       opacity: 1;
+   }
+   
+   .fit-content{
+       width: fit-content;
+   }
+   
+   .name{
+       color: var(--color-2);
+   }
+   
+   .user{
+       width: 100%;
+       border-radius: 50%;
+       border: 2px solid grey;
+   }
+   
+ 
+/* Subcribe section*/
+
+   .form-bg{
+       background: var(--banner-bg);
+       
+   }
+   
+   form input[type="email"]{
+       outline: none;
+       height: 40px;
+       border-radius: 5px;
+       border: none;
+       width: 800%;
+       font-size: 20px;
+       padding: 0 10px;
+   }
+   
+   /*footer*/
+
+   footer{
+       background-color: var(--footer-bg);
+   }
+   footer a{
+       margin: 0 20px 0 0;
+   }
+   
+   
